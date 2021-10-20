@@ -30,7 +30,7 @@ const Timer = () => {
         setTime(0);
         setTimeOn(false);
     }
-
+    
     return (
         <div className="parentTimer">
             <h1>Timer App</h1>

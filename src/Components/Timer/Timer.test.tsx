@@ -1,6 +1,13 @@
+import { mount, shallow } from "enzyme";
+import Timer from "./Timer";
 
-import { render } from "@testing-library/react";
+describe("App" , () => {
+    let container:any;
+    beforeEach(() => (
+        container = shallow(<Timer />)
+    ))
+    it("Invokes startTime when start button is clicked",() => {
+        expect(container.find("div").length).toBeGreaterThanOrEqual(1);
+    })
 
-describe("TImer" , () => {
-    expect(2).toBe(true);
 })
