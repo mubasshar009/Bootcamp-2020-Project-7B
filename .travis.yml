@@ -15,6 +15,3 @@ deploy:
   domain: elated-shoes12.surge.sh/
   project: ./build/
 
-
-branch: 
- - master
