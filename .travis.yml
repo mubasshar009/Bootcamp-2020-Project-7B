@@ -7,11 +7,11 @@ cache:
 script:
   - npm install
   - npm test
-  - yarn build
+  - npm run build
 
 deploy:
   provider: surge
-  skip_cleanup: true
+  cleanup: true
   domain: elated-shoes12.surge.sh/
   project: ./build/
 
