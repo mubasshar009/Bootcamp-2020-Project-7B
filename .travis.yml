@@ -6,8 +6,8 @@ cache:
     - node_modules
 script:
   - npm install
-  - npm test
-  - npm run build
+  - yarn test
+  - yarn build
 
 deploy:
   provider: surge
