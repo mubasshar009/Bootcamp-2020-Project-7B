@@ -14,3 +14,7 @@ deploy:
   cleanup: true
   domain: elated-shoes12.surge.sh/
   project: ./build/
+
+  
+on: 
+  branch: master
